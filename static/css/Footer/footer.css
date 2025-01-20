@@ -1,0 +1,27 @@
+#lienhe {
+  margin-top: 35px;
+  background-color: rgb(43, 33, 33) !important;
+  color: white !important;
+}
+
+#lienhe > p + p {
+  margin: 0 !important;
+}
+
+#lienhe .contact {
+  padding-right: 15px !important;
+  line-height: 5px;
+  font-size: 12px;
+}
+
+.contact {
+  display: inline;
+}
+
+p.contact {
+  margin-bottom: 20px !important;
+}
+
+.center {
+  text-align: center;
+}

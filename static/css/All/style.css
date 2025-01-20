@@ -1,0 +1,9 @@
+.font-title {
+  font-family: "Times New Roman", Times, serif !important;
+}
+.font-text {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}

@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+
+{% block title %}Ẩm thực{% endblock %}
+
+{% load static %} 
+
+{% block content %}
+
+<!-- /BREAKFAST -->
+<div class="banner">
+<span class="tieude font-title">Breakfast</span>
+</div>
+<div class="container">
+<div class="row">
+    <div class="col">
+    <div class="product">
+        <img
+        src="{% static 'img/Cushine/Hamburger.jpg' %}"
+        class="block"
+        />
+        <div class="content-text font-text">
+        Hamburger is one of the most popular product in the world. It
+        contains plenty of ingredients which can help the consumers meet the
+        required amount of nutrients for the beginning of a day.
+        </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="product">
+        <img
+        src="{% static 'img/Cushine/PhoGa.jpg' %}"
+        class="block"
+        />
+        <div class="content-text font-text">
+        Phở is the most well-known cuisine in Vietnam. By offering the most
+        scrumptious flavor in the world, pho represents for the culinary
+        essence of vietnamese food. Among numerous kinds of pho, phở gà
+        appears to be a perfect selection to initiate an energetic and
+        productive day.
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- /LUNCH -->
+
+<div class="banner">
+<span class="tieude font-title">Lunch</span>
+</div>
+<div class="container">
+<div class="row">
+    <div class="col">
+    <div class="product">
+        <img
+        src="{% static 'img/Cushine/ComTam.jpg' %}"
+        class="block"
+        />
+        <div class="content-text font-text" style="display: inline">
+        Cơm tấm's historic background defines the relationship between
+        Vietnam and France. It was created during the French conquest of
+        Vietnam. This dish provides beef, vegetables and rice with some
+        additions like eggs or bì chả. In conclusion, it can fill up your
+        "empty" stomach at the noon time.
+        </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="product">
+        <img
+        src="{% static 'img/Cushine/Bento.jpg' %}"
+        class="block"
+        />
+        <div class="content-text font-text">
+        Bento is not any certain type of food in Japan. As a tradition,
+        japanese people often make bento for lunch. Bento is a meal
+        including rice and other japanese foods which are canned inside a
+        container (box). Its neatness and convenience can be a perfect dish
+        especially for employees and students.
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- /DINNER -->
+
+<div class="banner">
+<span class="tieude none font-title">Dinner</span>
+</div>
+<div class="container">
+<div class="row">
+    <div class="col">
+    <div class="product">
+        <img
+        src="{% static 'img/Cushine/Pasta.jpg' %}"
+        class="block"
+        />
+        <div class="content-text font-text">
+        Spaghetti is undoubtedly the most popular food in the world. It is
+        so delicious that people can hardly ignore its glamour whenever they
+        smell it. To end up a hard-working day, it would be a nice choice to
+        comfort our stomach by a delightful dinner of spaghetties beside our
+        family and friends.
+        </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="product">
+        <img
+        src="{% static 'img\Cushine\McAndCheese.jpg' %}"
+        class="block"
+        />
+        <div class="content-text font-text">
+        Pasta is also an excellent choice for dinner when it can cover your
+        day by the most flavorsome taste in the world. With external-creamy
+        appearance, every bite can bring you from hell to heaven. It could
+        be much more delish and appetizing for those having been through a
+        tough and exhausting day.
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+<!-- SCRIPT -->
+<script>
+    window.onload = function(){
+      changeMenu(2);
+    }
+  </script>
+{% endblock %}

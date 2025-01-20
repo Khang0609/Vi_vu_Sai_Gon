@@ -1,0 +1,20 @@
+/* IMAGE */
+.pic {
+  height: 550px;
+}
+.d-block {
+  justify-self: center !important;
+  border-radius: 25px;
+}
+
+/* TEXT */
+h4.subtitle {
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgb(10, 10, 118);
+}
+.carousel-inner p {
+  font-weight: bold;
+  background-color: rgb(255, 253, 127);
+  color: rgb(0, 0, 0) !important;
+}

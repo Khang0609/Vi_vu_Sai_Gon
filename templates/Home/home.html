@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+
+{% block title %}Trang chủ {% endblock %} 
+{% load static %} 
+
+{% block content %}
+<div class="container-lg" style="margin-top: 35px">
+  <main>
+    <!-- BRIEF INFORMATION ABOUT SAIGON -->
+    <div class="text-center">
+      <h1 class="main-title font-title"><b>Thành phố Hồ Chí Minh</b></h1>
+      <h2 class="font-title">Hòn ngọc Viễn Đông</h2>
+    </div>
+    <div class="section">
+      <h2 class="font-title">Sài Gòn - Thành phố năng động</h2>
+      <div class="row">
+        <div class="col-lg-5" style="padding-right: 0">
+          <img
+            src="{% static 'img\Home\saiGon.jpeg' %}"
+            alt="Sài Gòn"
+            class="gioithieu-picture"
+          />
+        </div>
+        <div class="col-lg-7 text-holder">
+          <p class="text font-text">
+            Sài Gòn, hay Thành phố Hồ Chí Minh, là một đô thị sôi động và năng
+            động bậc nhất Đông Nam Á, nơi giao thoa giữa hiện đại và truyền
+            thống. Từ những tòa nhà chọc trời hiện đại đến những con phố cổ
+            kính, Sài Gòn luôn cuốn hút du khách bởi sự đa dạng và nhịp sống sôi
+            nổi. Đây là điểm đến lý tưởng cho những ai muốn khám phá văn hóa, ẩm
+            thực và lịch sử phong phú của Việt Nam.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- BRIEF HISTORY -->
+    <div class="section">
+      <h2 class="font-title">Lịch sử Sài Gòn</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="{% static 'img\Home\giaDinh.webp' %}"
+            alt="Gia Định"
+            class="gioithieu-picture"
+          />
+        </div>
+        <div class="col-lg-6 text-holder">
+          <p class="text font-text">
+            Sài Gòn ngày xưa là đất Phù Nam, được vua Nguyễn Phúc Tần sai người
+            đi khai hoang và đặt tên là trấn Gia Định (1658). Sau này, nay đây
+            được cai trị bởi 4 đời vua Nguyễn (Gia Long, Minh Mạng, Thiệu Trị,
+            Tự Đức). Trải qua khoảng thời gian dài phát triển và hình thành, nơi
+            đây quy tụ rất mọi người dân từ khắp miền đất nước, thậm chí là các
+            dân tộc khác như Hoa, Khơ me, Chăm. Đến thời kì Pháp thuộc, nơi đây
+            được Pháp xây dựng thành một Hòn Ngọc Viễn Đông của thế giới. Tiếp
+            đến là giai đoạn Mĩ thực hiện chiến lược Việt Nam hóa chiến tranh
+            (1868), nơi đây đã bị Mĩ đóng chiếm và chia cắt ra, lập nên nước
+            Việt Nam Cộng Hòa. Cuối cùng là giai đoạn từ sau năm 1975, nơi đây
+            đã vươn lên trở thành một trong những thành phố lớn nhất cả trong
+            nước và ngoài nước, một "Hòn ngọc viễn đông" thật sự.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Vị trí địa lí và con người -->
+    <div class="section">
+      <h2 class="font-title">Địa lí và con người nơi đây</h2>
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="{% static 'img\Home\ngsaiGon.jpg' %}" alt="" class="gioithieu-picture" />
+        </div>
+        <div class="col-lg-7 text-holder">
+          <p class="text font-text">
+            Sài Gòn hiện nay có 22 đơn vị hành chính cấp huyện (từ quận
+            <b>1</b>,<b>3</b>,<b>4</b>,<b>5</b>,<b>6</b>,<b>7</b>,<b>8</b>,<b>10</b>,<b>11</b>,<b>12</b>;
+            huyện <b>Nhà Bè</b>, huyện <b>Bình Chánh</b>, huyện <b>Hóc Môn</b>,
+            huyện <b>Cần Giờ</b>, huyện <b>Củ Chi</b>; và thành phố
+            <b>Thủ Đức</b>). Mỗi quận huyện như vậy lại có một đặc điểm khác
+            nhau, và con người ở đó cũng vậy. Vì là nơi tạo ra nhiều việc làm
+            nhất trong cả nước, thành phố mang tên Bác quy tụ rất nhiều người từ
+            khắp ba miền đất nước. Thậm chí nơi đây còn có những phố người Hoa,
+            phố người Quảng,...và những nơi đó đều mang đậm một nết văn hóa
+            riêng của một vùng miền. Tuy nhiên, không vì vậy mà Sài Gòn bị mất
+            đi những nét độc đáo của mình. Người Sài Gòn thường nổi tiếng với
+            những tính cách như thân thiện, hào phóng và có lối sống hơi hướng
+            thoáng hơn, vậy nên không ít du khách nước ngoài chọn đến đây tham
+            quan.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<!-- SCRIPT -->
+<script>
+  window.onload = function(){
+    changeMenu(0);
+  }
+</script>
+{% endblock %}

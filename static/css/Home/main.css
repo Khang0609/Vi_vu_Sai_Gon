@@ -1,0 +1,22 @@
+.main-title {
+  color: rgba(9, 12, 187, 0.733);
+  font-weight: bold;
+}
+
+.section {
+  margin-top: 25px;
+}
+
+.gioithieu-picture {
+  height: 16.6em;
+}
+
+.text-holder {
+  border-left: 2px solid #1a1919;
+  padding: 25px 25px 0 25px;
+  text-align: justify;
+}
+
+.text {
+  font-size: 14px;
+}

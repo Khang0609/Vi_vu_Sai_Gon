@@ -1,0 +1,24 @@
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+  font-size: small;
+}
+
+.bg-light {
+  background-color: rgb(184, 30, 33) !important;
+  margin-bottom: 15px;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+ul.nav{
+  margin: 0px 15px 0 0 !important;
+}
+
+a.active {
+  background-color: rgb(255, 251, 0) !important;
+  color: black !important;
+  border-radius: 15px;
+  font-weight: bold;
+}
