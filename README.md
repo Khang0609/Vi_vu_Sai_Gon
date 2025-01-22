@@ -18,3 +18,9 @@ HƯỚNG DẪN SỬ DỤNG TRƯỚC KHI DÙNG
     - B1: mở terminal (Win + R, nhập cmd, enter)
     - B2: nhập lệnh pip install django
 - Mở folder chứa bài (VD: Vi_vu_Sai_Gon) bằng terminal, xong nhập lệnh python manage.py runserver
+
+
+CẤU TRÚC BÀI
+- folder static/css chứa tất cả file css định dạng cho bài.
+- folder static/img chứa tất cả file ảnh của bài.
+- folder templates chứa tất cả file html của bài (riêng file base.html là khung sườn ban đầu gồm header và footer của tất cả trang).
